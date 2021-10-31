@@ -4,10 +4,10 @@ jobs:
   example-job:
     docker:
       # replace with your preferred image
-      - image: cimg/base:stable
+      - image: snyklabs/goof
     steps:
       - sysdig/inline-image-scan:
-          image-tag: snyklabs/goof 
+          image-tag: dasalebr/goof 
           sysdig-secure-token: '1fb2bfae-a0d1-435e-ba1a-119767a0145c' 
           sysdig-secure-url: https://eu1.app.sysdig.com 
 
