@@ -3,7 +3,7 @@ jobs:
  build:
    machine: true
    environment:
-     IMAGE_NAME: "dasale/goof"
+     IMAGE_NAME: "dasalebr/goof"
      SCAN_IMAGE_NAME: "snyklabs/goof"
 
    steps:
