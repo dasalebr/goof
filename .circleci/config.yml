@@ -1,3 +1,4 @@
+version: 2.1
 orbs:
   sysdig: sysdig/sysdig@0.1.0
 jobs:
