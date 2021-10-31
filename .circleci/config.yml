@@ -5,7 +5,7 @@ jobs:
   example-job:
     docker:
       # replace with your preferred image
-      - image: snyklabs/goof
+      - image: docker:stable
     steps:
       - sysdig/inline-image-scan:
           image-tag: dasalebr/goof
