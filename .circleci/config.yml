@@ -17,7 +17,7 @@ jobs:
      - run: docker build -t "$IMAGE_NAME" .
 
      # scan the image
-     - run: docker run --rm  quay.io/sysdig/secure-inline-scan:2 $SCAN_IMAGE_NAME  -s https://eu1.app.sysdig.com -k "$SYSDIG_SECURE_TOKEN" "$IMAGE_NAME"
+     - run: docker run --rm  quay.io/sysdig/secure-inline-scan:2 $IMAGE_NAME  -s https://eu1.app.sysdig.com -k "$SYSDIG_SECURE_TOKEN"  
 
      # deploy the image
      - run: docker push "$IMAGE_NAME"
