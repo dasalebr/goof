@@ -1,4 +1,6 @@
 # Goof - Snyk's vulnerable demo app
+
+[![Git](https://app.soluble.cloud/api/v1/public/badges/1c88a0b1-0d5a-4d36-ad6a-8d8010a1a55b.svg?orgId=288883884012)](https://app.soluble.cloud/repos/details/github.com/dasalebr/goof?orgId=288883884012)  
 [![Known Vulnerabilities](https://snyk.io/test/github/snyk/goof/badge.svg?style=flat-square)](https://snyk.io/test/github/snyk/goof)
 
 A vulnerable Node.js demo application, based on the [Dreamers Lab tutorial](http://dreamerslab.com/blog/en/write-a-todo-list-with-express-and-mongodb/).
